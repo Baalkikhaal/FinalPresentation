@@ -47,9 +47,9 @@ div.slide {
   margin-left: -400px;
   left: 50%;
   top: 50%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#bbd), to(#fff));
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #bbd, #fff);
+  background: -moz-linear-gradient(bottom, #fff, #fff);
   -webkit-transition: margin 0.25s ease-in-out;
   -moz-transition: margin 0.25s ease-in-out;
   -o-transition: margin 0.25s ease-in-out;
@@ -101,7 +101,7 @@ body.expose div.slide {
 body.expose div.slide:hover {
   background: -webkit-gradient(linear, left bottom, left top, from(#bdd), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #bdd, #fff);
+  background: --gradient(bottom, #bdd, #fff);
 }
 
 body.expose .slide-wrapper {
@@ -128,7 +128,7 @@ body.expose .slide.far-future {
 body.expose .slide.current {
   background: -webkit-gradient(linear, left bottom, left top, from(#ddb), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #ddb, #fff);
+  background: --gradient(bottom, #ddb, #fff);
   border: 16px solid #fff;
   -moz-transform: scale(.315, .315);
   -moz-transform-origin: 0 0;
@@ -394,7 +394,7 @@ li pre { margin-left: 0em; }
   background: -webkit-gradient(linear, top right, bottom right, from(#dde), to(#fff));
   -webkit-transition: margin 0.25s ease-in-out;
   background-color: #eee;
-  background: -moz-linear-gradient(right, #dde, #fff);
+  background: --gradient(right, #dde, #fff);
   border-right: 5px solid #ccd;
   z-index: 9999999;
   height: 100%;

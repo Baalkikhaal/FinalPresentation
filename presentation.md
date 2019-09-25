@@ -1,4 +1,4 @@
-# Interfacial Dzyaloshinski-Moriya interaction and Kerr microscopy and Hello world!
+# Interfacial Dzyaloshinski-Moriya interaction and Kerr microscopy
 
 ---
 
@@ -13,7 +13,7 @@
 <img width="450" src="content/images/IonInteractions.png">
 
 
-- Origin of either types of anisotropic interactions is spin-orbit interaction. 
+- Origin of either types of anisotropic interactions is spin-orbit interaction.
 - Refer [O' Handley, Chapter on Magnetic Anisotropy](O' Handley Book, Chapter on Magnetic Anisotropy), [Yosida, Chapter : Interactions](Yosida, Chapter on Exchange Interactions)
 
 ---
@@ -42,7 +42,7 @@
 # Structural inversion symmetry breaking
 
 - SOC can be visualized as the interaction of the electron spin with the magnetic field the electron "sees" as it moves throught the electric field
-\\[ ~(\nabla V \times p)\cdot s \\] 
+\\[ ~(\nabla V \times p)\cdot s \\]
 - At interfaces, large electric fields
 
 ---
@@ -79,7 +79,7 @@
 
 <img width="300" src="content/images/KerrMagnetoOpticEffect.png">
 
-- Light travelling in a magnetic medium an extra complex dielectric response 
+- Light travelling in a magnetic medium an extra complex dielectric response
 
 \\[ \mathbf{D} = \epsilon ( \mathbf{E} + i Q_V \mathbf{m} \times \mathbf{E})\\]
 
@@ -192,9 +192,3 @@ import matplotlib.pyplot as plt % for plotting
 # Presenter Notes
 
 During the 1970 bubble memory was discovered in orthoferrites exhibiting perpendicular magnetic anisotropy. Researchers at Phillips and Bell Labs studied slices of single crystal rare earth orthoferrites with thickness ranging in 10 microns using Faraday effect and observed that these domains could be moved with inhomogeneous magnetics fields with relative ease as they had low wall motion coercivity. Thiele, who is an important theoretician in magnetic domains community came up with the first theory of stability of such bubble domains.
-
-
-
-
-
-
