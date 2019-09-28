@@ -237,6 +237,17 @@ div.slide div.presenter_notes, div.slides div.presenter_notes {
 div.slide p {
   font-size: 20px;
 }
+div.slide p.title {
+  padding: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.slide p.author {
+  padding: 50px;
+  text-align: center;
+}
 
 .slide.far-past {
   display: block;
