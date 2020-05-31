@@ -2,7 +2,6 @@
 layout: post
 title: "HTML slides using Landslide"
 date: 2020-05-31
-categories: jekyll update
 ---
 
 ## Summary
